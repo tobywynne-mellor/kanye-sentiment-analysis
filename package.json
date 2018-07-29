@@ -1,0 +1,24 @@
+{
+  "name": "kanye_analysis",
+  "version": "1.0.0",
+  "description": "Analysis of Kanye's Tweets",
+  "main": "kanye-analysis.js",
+  "scripts": {
+    "start": "node kanye.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kanye",
+    "analysis",
+    "twitter"
+  ],
+  "author": "Toby Wynne-Mellor",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.85.0",
+    "twit": "^2.2.9",
+    "unirest": "^0.5.1",
+    "watson-developer-cloud": "^3.4.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
