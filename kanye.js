@@ -46,10 +46,8 @@ stream.on('tweet', function (tweet) {
 
 				if(tones.length == 0)
 				{
-					output = output + "\nTweet had no tone.";
+					break;
 				}
-
-				output = "@kanyewest " + output; 
  				
 				console.log(output);
 				tweetIt(output);
