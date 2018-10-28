@@ -44,13 +44,11 @@ stream.on('tweet', function (tweet) {
 					output = output + '\n' + Math.round(element.score*100) + "% " + element.tone_name + ".";
 				});
 
-				if(tones.length == 0)
+				if(tones.length > 0)
 				{
-					break;
+					console.log(output);
+					tweetIt(output);
 				}
- 				
-				console.log(output);
-				tweetIt(output);
 			}
 		});
 	}
